@@ -1,12 +1,10 @@
-hash: d6b884cd5ad2c1622d157697251fbf2a0b5c5cd9e03af2258caf8f35cb03d8ba
-updated: 2019-09-22T21:03:42.412209-04:00
+hash: 3a461ae5b50aae008e2f3d21d965b82af69d1eac9337d869b7cd9c9e92073e0e
+updated: 2020-09-22T10:55:59.984104129-04:00
 imports:
 - name: github.com/beorn7/perks
   version: 37c8de3658fcb183f997c4e13e8337516ab753e6
   subpackages:
   - quantile
-- name: github.com/codahale/hdrhistogram
-  version: 3a0bb77429bd3a61596f5e8a3172445844342120
 - name: github.com/davecgh/go-spew
   version: d8f796af33cc11cb798c1aaeb27a4ebc5099927d
   subpackages:
@@ -27,6 +25,8 @@ imports:
   version: 1680a479a2cfb3fa22b972af7e36d0a0fde47bf8
   subpackages:
   - proto
+- name: github.com/HdrHistogram/hdrhistogram-go
+  version: 8dac23c8dac1e25265163f55c2a810023dce53da
 - name: github.com/influxdata/influxdb1-client
   version: fc22c7df067eefd070157f157893fbce961d6359
   subpackages:
@@ -69,7 +69,7 @@ imports:
   - assert
   - require
 - name: github.com/uber-go/tally
-  version: 3332297784e46cd346ab6d9894fd4ea027dc9368
+  version: 164eb6a3c0d4c8c82e5a63a8a12d506f0c9b2637
 - name: github.com/VividCortex/gohistogram
   version: 51564d9861991fb0ad0f531c99ef602d0f9866e6
 - name: golang.org/x/sys

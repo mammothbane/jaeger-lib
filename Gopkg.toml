@@ -3,7 +3,7 @@
   version = "0.9.0"
 
 [[constraint]]
-  name = "github.com/codahale/hdrhistogram"
+  name = "github.com/HdrHistogram/hdrhistogram-go"
   branch = "master"
 
 [[constraint]]
